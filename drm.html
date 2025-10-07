@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inabanga • DRM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">🌿</div>
+          <a class="brand-name" href="index.html">Inabanga</a>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="primary-nav" class="nav" aria-label="Primary">
+          <ul class="menu root" role="menubar">
+            <li class="menu-item has-submenu" role="none">
+              <button class="menu-link" aria-haspopup="true" aria-expanded="false" role="menuitem">About Us</button>
+              <ul class="submenu" role="menu">
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#history">History</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#location">Location</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#contact">Contact</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#officials">Officials</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#population">Population</a></li>
+              </ul>
+            </li>
+            <li class="menu-item has-submenu" role="none">
+              <button class="menu-link" aria-haspopup="true" aria-expanded="false" role="menuitem">Tourism</button>
+              <ul class="submenu" role="menu">
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#tourist-spots">Tourist Spots</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="index.html#events">Events</a></li>
+              </ul>
+            </li>
+            <li class="menu-item has-submenu is-active" role="none">
+              <button class="menu-link" aria-haspopup="true" aria-expanded="false" role="menuitem">Welfare</button>
+              <ul class="submenu" role="menu">
+                <li role="none"><a role="menuitem" class="menu-link is-active" href="drm.html">DRM</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="senior-pwd.html">Senior / PWD</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="citizen-patrol.html">Citizen Patrol</a></li>
+              </ul>
+            </li>
+            <li class="menu-item has-submenu" role="none">
+              <button class="menu-link" aria-haspopup="true" aria-expanded="false" role="menuitem">Opportunities</button>
+              <ul class="submenu" role="menu">
+                <li role="none"><a role="menuitem" class="menu-link" href="jobs.html">Job</a></li>
+                <li role="none"><a role="menuitem" class="menu-link" href="business.html">Business</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>Disaster Risk Management</h1>
+          <p>Preparedness, response, and resilience for our community.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="grid two">
+            <article class="card"><h2>Hazard Maps</h2><p>Identify flood-prone and landslide-risk areas.</p></article>
+            <article class="card"><h2>Emergency Contacts</h2><p>Hotlines for MDRRMO, police, fire, and medical.</p></article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Inabanga • All rights reserved</p>
+        <a href="#" class="back-to-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
